@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
     <title>Bucket List</title>
+    <link rel="icon" type="image/x-icon" href="../Images/bucket_empty_25738.ico">
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
@@ -23,56 +24,128 @@
     <div class = "container">
         <div class = "wholetag">
             <h1 style="margin-bottom:20px">Bucket List</h1>
+            <div class = "subnavbackblist">
+                <nav class="sub-nav-blist">
+                    <a href="blist.html" class="active"><span class="tags" id="All">● All</span></a>
+                    <a href="blist/money.html"><span class="tags" id="Money">● Money</span></a>
+                    <a href="blist/career.html"><span class="tags" id="Career">● Career</span></a>
+                    <a href="blist/travel.html"><span class="tags" id="Travel">● Travel</span></a>
+                    <a href="blist/leisure.html"><span class="tags" id="Leisure">● Leisure</span></a>
+                    <a href="blist/learn.html"><span class="tags" id="Learn">● Learn</span></a>
+                </nav>
+            </div> 
         </div>      
-        <div class = "gallery" id="gallery">
+        <div class = "gallery" id="blist">
             <div class = "galleryimg" id="blist">
-                <a target = "display" href="../Images/Childhood.jpg">
-                    <img src = "../Images/Childhood.jpg" alt="Precious as a baby - FATIMA" title="Precious as a baby"/img>
+                <a target = "display" href="../Images/career.jpeg">
+                    <img src = "../Images/career.jpeg" alt="Career" title="Career"/img>
                 </a>
-                <p style="padding: 0% 2%;">
-                    <input type="checkbox" id="item1">
-                    <label for="item1">I want to become successful with my career</label>
+                <p>
+                    <span class="tags" id="Money">● Money</span>
+                    <span class="tags" id="Career">● Career</span>
+                    <br>
+                    <input type="checkbox" >
+                    <label >I want to become successful with my career</label>
                 </p>
             </div>
             <div class = "galleryimg" id="blist">
-                <a target = "display" href="../Images/Childhood.jpg">
-                    <img src = "../Images/Childhood.jpg" alt="Precious as a baby - FATIMA" title="Precious as a baby"/img>
+                <a target = "display" href="../Images/solotravel.jpeg">
+                    <img src = "../Images/solotravel.jpeg" alt="Solo Travel" title="Solo Travel"/img>
                 </a>
-                <p style="padding: 0% 2%;">
-                    <input type="checkbox" id="item1">
-                    <label for="item1">I want to become successful with my career</label>
+                <p>
+                    <span class="tags" id="Leisure">● Leisure</span>
+                    <span class="tags" id="Travel">● Travel</span>
+                    <br>
+                    <input type="checkbox" >
+                    <label >Travel Solo in another country</label>
                 </p>
             </div>
             <div class = "galleryimg" id="blist">
-                <a target = "display" href="../Images/Childhood.jpg">
-                    <img src = "../Images/Childhood.jpg" alt="Precious as a baby - FATIMA" title="Precious as a baby"/img>
+                <a target = "display" href="../Images/learnlanguage.jpg">
+                    <img src = "../Images/learnlanguage.jpg" alt="Learn Japanese" title="Learn Japanese"/img>
                 </a>
-                <p style="padding: 0% 2%;">
-                    <input type="checkbox" id="item1">
-                    <label for="item1">I want to become successful with my career</label>
+                <p>
+                    <span class="tags" id="Leisure">● Leisure</span>
+                    <span class="tags" id="Learn">● Learn</span>
+                    <br>
+                    <input type="checkbox">
+                    <label>Learn a new language</label>
                 </p>
             </div>
             <div class = "galleryimg" id="blist">
-                <a target = "display" href="../Images/Childhood.jpg">
-                    <img src = "../Images/Childhood.jpg" alt="Precious as a baby - FATIMA" title="Precious as a baby"/img>
+                <a target = "display" href="../Images/millionpeso.jpeg">
+                    <img src = "../Images/millionpeso.jpeg" alt="A million peso" title="A million peso"/img>
                 </a>
-                <p style="padding: 0% 2%;">
-                    <input type="checkbox" id="item1">
-                    <label for="item1">I want to become successful with my career</label>
+                <p>
+                    <span class="tags" id="Money">● Money</span>
+                    <span class="tags" id="Career">● Career</span>
+                    <br>
+                    <input type="checkbox">
+                    <label >Have a million peso</label>
                 </p>
             </div>
             <div class = "galleryimg" id="blist">
-                <a target = "display" href="../Images/Childhood.jpg">
-                    <img src = "../Images/Childhood.jpg" alt="Precious as a baby - FATIMA" title="Precious as a baby"/img>
+                <a target = "display" href="../Images/dreamhouse.png">
+                    <img src = "../Images/dreamhouse.png" alt="Dream House" title="Dream House"/img>
                 </a>
-                <p style="padding: 0% 2%;">
-                    <input type="checkbox" id="item1">
-                    <label for="item1">I want to become successful with my career</label>
+                <p>
+                    <span class="tags" id="Money">● Money</span>
+                    <br>
+                    <input type="checkbox" >
+                    <label >Build my dream house</label>
                 </p>
             </div>
-           
-           
 
+            <div class = "galleryimg" id="blist">
+                <a target = "display" href="../Images/astronomy.jpg">
+                    <img src = "../Images/astronomy.jpg" alt="Space" title="Space"/img>
+                </a>
+                <p>
+                    <span class="tags" id="Leisure">● Leisure</span>
+                    <span class="tags" id="Learn">● Learn</span>
+                    <br>
+                    <input type="checkbox" >
+                    <label>Study about astronomy</label>
+                </p>
+            </div>
+
+            <div class = "galleryimg" id="blist">
+                <a target = "display" href="../Images/england1.jpg">
+                    <img src = "../Images/england1.jpg" alt="Europe" title="Europe"/img>
+                </a>
+                <p>
+                    <span class="tags" id="Leisure">● Leisure</span>
+                    <span class="tags" id="Travel">● Travel</span>
+                    <br>
+                    <input type="checkbox" >
+                    <label>Travel to Europe with my loved ones</label>
+                </p>
+            </div>
+           
+            <div class = "galleryimg" id="blist">
+                <a target = "display" href="../Images/joostkleinconcert.jpg">
+                    <img src = "../Images/joostkleinconcert.jpg" alt="Joost Klein concert" title="Joost Klein concert"/img>
+                </a>
+                <p>
+                    <span class="tags" id="Leisure">● Leisure</span>
+                    <br>
+                    <input type="checkbox" >
+                    <label>Attend a Joost Klein concert </label>
+                </p>
+            </div>
+
+            <div class = "galleryimg" id="blist">
+                <a target = "display" href="../Images/concert.jpg">
+                    <img src = "../Images/concert.jpg" alt="Japan Arena" title="Japan Arena"/img>
+                </a>
+                <p>
+                    <span class="tags" id="Leisure">● Leisure</span>
+                    <span class="tags" id="Travel">● Travel</span>
+                    <br>
+                    <input type="checkbox" >
+                    <label>Attend a concert in another country</label>
+                </p>
+            </div>
 
 
 

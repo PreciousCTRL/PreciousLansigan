@@ -1,8 +1,8 @@
 body{
     font-family: Poppins ,Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #dcddd8;
+    background-color: #ADB8B3;
     margin: 1% 5% 5% 5%;
-    color: #2d2d2d;
+    color: black;
 
 }
 p{
@@ -25,7 +25,7 @@ mark{
 }
 
 .container {
-    margin: 30px 10px;
+    margin: 10px 10px;
     padding: 2%;
     padding-bottom: 1%;
 
@@ -39,7 +39,7 @@ mark{
     border: 7px solid black;
     border-radius: 15px;
     box-shadow: 5px 5px;
-    background-color: #fff4e4;
+    background-color: #fbf6ef;
     margin:0% 7%;
     margin-bottom: 2%;
     padding:10px
@@ -118,15 +118,11 @@ mark{
     padding: 10px 15px;
     text-decoration: none;
     font-weight: bold;
-    color:#2d2d2d;
-    border-bottom-style:ridge;
-    border-bottom-color: transparent;
+    color:black;
     border-radius: 5px;
 }
 
 .navbar a:hover{
-    border-bottom-style:ridge;
-    border-bottom-color: #ffca19;
     background-color: #1d3c59;
     color: white;
     border-color: black;
@@ -146,7 +142,7 @@ mark{
     border-bottom-color: #2d5f76;
     border-radius: 5px;
     border: 2px solid black;
-    box-shadow: 2px 3px;
+    box-shadow: 2px 3px black;
 }
 
 .navbar .active#inside{
@@ -173,7 +169,7 @@ mark{
 
 .navbar .contact:hover{
   border-style: solid;
-  background-color: #ffca19;
+  background-color: #fff4e4;
   color:black;
 }
 
@@ -182,13 +178,42 @@ mark{
     display: flex;
     justify-content: center; 
   }
-  .subnavback{
+
+.sub-nav-blist {
+    display: flex;
+    justify-content: center; 
+}
+.sub-nav-blist a{
+  margin:5px;
+  text-decoration: none;
+  filter: brightness(0.7); 
+}
+
+.sub-nav-blist a:hover{
+  transform: scale(1.05);
+  filter: brightness(1);
+}
+
+nav .active{
+  filter: brightness(1);
+  transform: scale(1.05);
+}
+
+.subnavbackblist{
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 15px;
+  display:inline-block;
+}
+
+.subnavback{
     background-color: white;
     margin:0% 36%;
     border: 2px solid black;
     border-radius: 15px;
 }
   
+
   .sub-nav a {
     color: #2d2d2d;
     padding: 12px 20px;
@@ -226,6 +251,10 @@ mark{
   margin: 0px 100px;
 }
 
+.gallery#blist{
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  margin: 0px 100px;
+}
 
 .gallery#video{
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -246,26 +275,35 @@ mark{
 }
 
 .galleryimg#blist img {
-  width: 100%; 
-  height: 200px;
+  margin:10px;
+  max-width: 160px; 
+  max-height: auto;
+  height: 150px;
   object-fit: cover;
-  display: block;
   text-align: justify;
+  border-radius: 50%;
+  float:left;
 }
+
 
 .galleryimg#blist p {
   margin:10px;
   text-align: left;
+  padding: 0% 2%;
+  margin-top:50px;
 }
 
 .galleryimg#blist {
   width: 100%; 
-  height: 300px;
+  height: 180px;
   object-fit: cover;
   display: block;
   transition: transform 0.3s ease, filter 0.3s ease;
   background-color: white;
 }
+
+
+
 .galleryimg#blist p> input[type="checkbox"]:checked + label {
   text-decoration: line-through;
   color: #888; /* Optional: change text color when checked */
@@ -281,7 +319,37 @@ mark{
   filter: brightness(1);
 }
 
+.tags{
+  display: inline;
+  border-radius: 10px;
+  padding:0px 5px;
+  font-size: 14px;
+  color:white;
+}
 
+#Leisure{
+  background-color:#a03e44;
+}
+
+#All{
+  background-color:#545305;
+}
+
+#Career{
+  background-color:#3e83a0;
+}
+
+#Travel{
+  background-color:#3e41a0;
+}
+
+#Learn{
+  background-color:#993ea0;
+}
+
+#Money{
+  background-color:#126338;
+}
 
 
 .galleryimg#favorite img {
