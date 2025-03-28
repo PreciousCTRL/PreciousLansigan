@@ -524,13 +524,14 @@ ul + p{
 
 
   .content {
-    float: right; 
-    margin:2%;
-    width: 150px; 
+    left:290px;
+    top:180px;
+    max-width: 200px; 
     height: auto; 
     border-radius: 3px; 
     border-style: solid;
     color:black;
+    position:absolute;
   }
   .content#music {
     float: right; 
